@@ -2,11 +2,11 @@ import java.util.Scanner;  //Importa a classe Scanner para ler dados do usuário
 
 public class TerminalAccount {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in); //Cria um objeto Scanner para capturar entrada do teclado
+        Scanner sc = new Scanner(System.in); //Cria um objeto Scanner para capturar entrada do teclado.
 
-        System.out.println("Welcome to the Bank Account System."); //Imprime a mensagem ao usuário
+        System.out.println("Welcome to the Bank Account System."); //Imprime a mensagem ao usuário.
         System.out.println("Please enter your account number:"); //Imprime a mensagem ao usuário perguntando qual o número de sua conta.
-        int accountNumber = sc.nextInt(); //Lê um número inteiro digitado pelo usuário e armazena como número da conta
+        int accountNumber = sc.nextInt(); //Lê um número inteiro digitado pelo usuário e armazena como número da conta.
         sc.nextLine(); //Consome a quebra de linha pendente do nextInt().
 
         System.out.println("Please enter your agency:"); //Imprime a mensagem ao usuário perguntando qual o número de sua agência.
