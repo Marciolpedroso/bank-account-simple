@@ -7,7 +7,7 @@ public class TerminalAccount {
         System.out.println("Welcome to the Bank Account System."); //Imprime a mensagem ao usuário
         System.out.println("Please enter your account number:"); //Imprime a mensagem ao usuário perguntando qual o número de sua conta.
         int accountNumber = sc.nextInt(); //Lê um número inteiro digitado pelo usuário e armazena como número da conta
-        sc.nextLine(); //Consome a quebra de linha pendente do nextInt()
+        sc.nextLine(); //Consome a quebra de linha pendente do nextInt().
 
         System.out.println("Please enter your agency:"); //Imprime a mensagem ao usuário perguntando qual o número de sua agência.
         String agency = sc.nextLine(); //Lê a agência como texto (String), pois pode conter caracteres como hífen.
